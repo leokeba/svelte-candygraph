@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { Channel } from '$lib/types.d.ts'; 
-	import CandyGraph, {
+	import { 
+		CandyGraph,
 		createDefaultFont,
 		LinearScale,
 		LineStrip,
