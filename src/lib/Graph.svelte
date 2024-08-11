@@ -89,22 +89,22 @@
 				renderable.dispose();
 			});
 			// cg.copyTo(viewport, canvas);
-		}
+	}
 		
-	</script>
+</script>
 	
-	<div id="candygraph-container">
-		<canvas bind:this={canvas} id="candygraph-canvas"></canvas>
-	</div>
-	
-	<style>
-		#candygraph-container {
-			width: 100%;
-			height: 100%;
-		}
-		#candygraph-container canvas {
-			width: 100%;
-			height: 100%;
-			background: #FFF;
-		}
-	</style>
+<div id="candygraph-container">
+	<canvas bind:this={canvas} id="candygraph-canvas"></canvas>
+</div>
+
+<style>
+	#candygraph-container {
+		width: 100%;
+		height: 100%;
+	}
+	#candygraph-container canvas {
+		width: 100%;
+		height: 100%;
+		background: #FFF;
+	}
+</style>

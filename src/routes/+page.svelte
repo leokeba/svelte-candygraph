@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Graph from '$lib/Graph.svelte';
-  import type { Channel } from '$lib/types';
+  import type { Channel } from '$lib/types.js';
   const channels: Channel[] = [{ yVals:[], xVals:[] }];
   // Generate some x & y data.
   for (let x = 0; x <= 1; x += 0.001) {
