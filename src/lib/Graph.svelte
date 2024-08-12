@@ -10,7 +10,6 @@
 		CartesianCoordinateSystem,
 		type OrthoAxisOptions,
 		type Viewport,
-		CoordinateSystem,
 	} from "candygraph";
 	
 	let cg: CandyGraph;
