@@ -3,7 +3,7 @@
   import type { Channel } from '$lib/types.js';
   const channels: Channel[] = [{ yVals:[], xVals:[] }];
   // Generate some x & y data.
-  for (let x = 0; x <= 1; x += 0.001) {
+  for (let x = 0; x <= 1; x += 0.002) {
 	channels[0].xVals.push(x); // Store x-value in the channel
 	channels[0].yVals.push(0.5 + 0.35 * Math.sin(x * 2 * Math.PI)); // Calculate and store y-value
   }
@@ -13,7 +13,7 @@
 	  let el = yVals.shift();
 	  if (el) yVals.push(el);
 	  channels[0].yVals = yVals;
-  }, 10);
+  }, 20);
 </script>
 
 <svelte:head>
