@@ -82,12 +82,13 @@
 			})}),
 			new OrthoAxis(cg, coords, "x", font, xAxis),
 			new OrthoAxis(cg, coords, "y", font, yAxis)
-			];
-			cg.render(coords, viewport, renderables);
-			renderables.forEach((renderable) => {
-				renderable.dispose();
-			});
-			// cg.copyTo(viewport, canvas);
+		];
+		cg.render(coords, viewport, renderables);
+		renderables.forEach((renderable) => {
+			renderable.dispose();
+		});
+		font.dispose();
+		// cg.copyTo(viewport, canvas);
 	}
 		
 </script>
